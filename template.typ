@@ -413,7 +413,7 @@ header: context {
 }
 
 #let definition = thmenv(
-  "definition",
+  "Definition",
   boxcounting, //base counter name
   2, // number of base number levels to use
   (name, number, body) => {
@@ -422,7 +422,7 @@ header: context {
 ).with(numbering: boxnumbering)
 
 #let example = thmenv(
-  "example",
+  "Example",
   boxcounting,
   2,
   (name, number, body, ..args) => {
@@ -431,7 +431,7 @@ header: context {
 ).with(numbering: boxnumbering)
 
 #let tip = thmenv(
-  "tip",
+  "Tip",
   boxcounting,
   2,
   (name, number, body) => {
@@ -440,7 +440,7 @@ header: context {
 ).with(numbering: boxnumbering)
 
 #let attention = thmenv(
-  "attention",
+  "Attention",
   boxcounting,
   2,
   (name, number, body) => {
@@ -449,7 +449,7 @@ header: context {
 ).with(numbering: boxnumbering)
 
 #let quote = thmenv(
-  "quote",
+  "Quote",
   boxcounting,
   2,
   (name, number, body) => {
@@ -458,7 +458,7 @@ header: context {
 ).with(numbering: boxnumbering)
 
 #let theorem = thmenv(
-  "theorem",
+  "Theorem",
   boxcounting,
   2,
   (name, number, body) => {
@@ -467,7 +467,7 @@ header: context {
 ).with(numbering: boxnumbering)
 
 #let proposition = thmenv(
-  "proposition",
+  "Proposition",
   boxcounting,
   2,
   (name, number, body) => {

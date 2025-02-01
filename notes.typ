@@ -58,3 +58,4 @@
 #include "content/ch4.typ"
 #include "content/ch5.typ"
 #include "content/ch6.typ"
+#include "content/ch7.typ"

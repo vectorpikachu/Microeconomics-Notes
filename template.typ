@@ -173,9 +173,11 @@ header: context {
     #if it.numbering != none { counter(heading).display() }
     #it.body
 
-    #if it.level == 1 and it.numbering != none{
+    #if it.level == 1 and it.numbering != none {
       chaptercounter.step()
       counter(math.equation).update(0)
+      counter(figure.where(kind: image)).update(0)
+      counter(figure.where(kind: table)).update(0)
     }
   ]
 
@@ -210,17 +212,19 @@ header: context {
       numbering("1.1", chaptercounter.at(here()).first(), ..nums)
     })
 
-
   // 配置表格
   set table(
     fill: (_, row) => if row == 0 {accent-color.lighten(80%)} else {accent-color.lighten(90%)},
-    stroke: 1pt + white
+    stroke: 1pt + white,
   )
 
   // set figure(placement: auto)
   show figure.where(
     kind: table
-  ): set figure.caption(position: bottom)
+  ): it => {
+    set figure.caption(position: bottom)
+    it
+  }
   show figure.where(
     kind: raw
   ): it => {

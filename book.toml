@@ -1,9 +1,9 @@
 [book]
 authors = ["lvhangzhou"]
-language = "en"
+language = "zh"
 multilingual = false
 src = "src"
-title = "Microeconomics"
+title = "Intermediate Microeconomics"
 
 [preprocessor.katex]
 after = ["links"]
@@ -22,3 +22,19 @@ no-css = false
 include-src = false
 block-delimiter = { left = "$$", right = "$$" }
 inline-delimiter = { left = "$", right = "$" }
+
+[preprocessor.admonish]
+on_failure = "bail"
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+
+[preprocessor.admonish.default]
+collapsible = false
+
+[preprocessor.admonish.renderer.test]
+render_mode = "strip"
+
+[output]
+
+[output.html]
+additional-css = ["./mdbook-admonish.css"]

@@ -46,6 +46,7 @@ jobs:
             cargo install --version ${MDBOOK_VERSION} mdbook
             cargo install mdbook-katex
             cargo install mdbook-admonish
+            mdbook-admonish install
           fi
 
       - name: Setup Pages

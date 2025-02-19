@@ -7,7 +7,7 @@
   short-title: "Intermediate Microeconomics",
   // 笔记描述（选填）
   description: [
-    Powered By #link("https://github.com/a-kkiri/SimpleNote")[SimpleNote], #cite(form: "prose", <SimpleNote>).
+    Instructed by 邢建炜
   ],
   // 笔记创建日期（选填）
   date: datetime(year: 2025, month: 1, day: 29),
@@ -52,10 +52,5 @@
 
 // #include "content/chapter1.typ"
 // #include "content/chapter2.typ"
-#include "content/ch1.typ"
-#include "content/ch2.typ"
-#include "content/ch3.typ"
-#include "content/ch4.typ"
-#include "content/ch5.typ"
-#include "content/ch6.typ"
-#include "content/ch7.typ"
+#include "content/chapter_1.typ"
+#include "content/chapter_2.typ"

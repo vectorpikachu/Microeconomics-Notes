@@ -154,13 +154,13 @@ header: context {
     })
 
   // 配置列表
-  set list(tight: true, indent: 2em)
+  set list(tight: true, indent: 1em)
   show list: it => [
     #set text(top-edge: "ascender")
     #it
   ]
 
-  set enum(tight: true, indent: 2em)
+  set enum(tight: true, indent: 1em)
   show enum: it => [
     #set text(top-edge: "ascender")
     #it
@@ -339,7 +339,7 @@ header: context {
   v(24pt, weak: true)
 
   // 将段落设置为两端对齐，并设置换行。
-  set par(justify: true, linebreaks: "optimized", first-line-indent:2em, leading: 0.8em)
+  set par(justify: true, linebreaks: "optimized", first-line-indent: 0em, leading: 0.8em)
 
   pagebreak()
 

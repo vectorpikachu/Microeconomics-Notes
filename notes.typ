@@ -54,3 +54,4 @@
 // #include "content/chapter2.typ"
 #include "content/chapter_1.typ"
 #include "content/chapter_2.typ"
+#include "content/chapter_3.typ"

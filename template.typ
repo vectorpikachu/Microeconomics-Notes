@@ -1,6 +1,6 @@
-#import "@preview/showybox:2.0.1": showybox
-#import "@preview/codelst:2.0.1": sourcecode
-#import "@preview/ctheorems:1.1.2": *
+#import "@preview/showybox:2.0.4": *
+#import "@preview/codelst:2.0.2": sourcecode
+#import "@preview/ctheorems:1.1.3": *
 #import "resource.typ": *
 #import "@preview/equate:0.2.1": equate
 #import "@preview/physica:0.9.4": *
@@ -350,7 +350,7 @@ header: context {
   if bibliography-file != none {
     pagebreak()
     show bibliography: set text(10.5pt)
-    bibliography(bibliography-file, title: "参考文献", style: bibstyle)
+    bibliography(bibliography-file, title: "References", style: bibstyle)
   }
 }
 

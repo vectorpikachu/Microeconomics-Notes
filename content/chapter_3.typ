@@ -252,7 +252,7 @@ Well-behaved.
 
 E.g. consider $U(x_1,x_2) = x_1^(1"/"2)x_2^2$, then $ "MU"_1 &= pdv(U, x_1) = 1/2 x_1^(-1"/"2)x_2^2,\ "MU"_2 &= pdv(U, x_2) = 2x_1^(1"/"2)x_2. $
 
-Totally differentiating this identity gives $ pdv(U, x_1) dd(x_1) + pdv(U, x_2) dd(x_2) = 0. $
+Totally differentiating this identity gives #text(fill: eastern)[$ pdv(U, x_1) dd(x_1) + pdv(U, x_2) dd(x_2) = 0. $]
 
 $ arrow.r.double dd(x_2)/dd(x_1) = - (partial U "/" partial x_1)/(partial U "/" partial x_2). $
 This is the #r[MRS].

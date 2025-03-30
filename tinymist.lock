@@ -16,5 +16,6 @@ priority = 256
 [[task]]
 document = "file:notes.typ"
 id = "file:notes.typ"
+output = ""
 type = "export-pdf"
 when = "never"

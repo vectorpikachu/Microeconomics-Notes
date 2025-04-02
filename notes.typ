@@ -58,3 +58,5 @@
 #include "content/chapter_4.typ"
 #include "content/chapter_5.typ"
 #include "content/chapter_6.typ"
+#include "content/chapter_7.typ"
+#include "content/chapter_8.typ"

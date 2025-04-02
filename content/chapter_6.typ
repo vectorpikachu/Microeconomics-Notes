@@ -71,7 +71,7 @@ arrow.r.double & dd(c_2)/dd(c_1) = - (pi_1 "MU"(c_1))/(pi_2 "MU"(c_2)).
   caption: [Indifference Curves Under Uncertainty]
 )
 
-=== Most Preferred Affordable State-contingent Consumption Plan
+=== Most Preferred Affordable State-Contingent Consumption Plan
 
 MRS = slope of budget constraint
 
@@ -219,7 +219,7 @@ $ "CV" = "EV" = Delta"CS". $
   [
     #figure(
       align(center, image("../figures/en-28.png", width: 90%)),
-      caption: [Floor Proce]
+      caption: [Floor Price]
     )
   ], [
     #figure(

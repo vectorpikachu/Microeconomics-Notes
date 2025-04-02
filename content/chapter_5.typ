@@ -84,7 +84,7 @@ The present value of \$$m$ available at the start of the next period is $ "PV" =
 $ c_2 = -(1+r)c_1 + m_2 + (1+r)m_1. $
 
 #figure(
-  align(center, image("../figures/en-17.png", width: 60%)),
+  align(center, image("../figures/en-17.png", width: 42%)),
   caption: [The Intertemporal Budget Constraint]
 )
 
@@ -92,7 +92,7 @@ $ c_2 = -(1+r)c_1 + m_2 + (1+r)m_1. $
 $ (1+r) p_1 c_1 + p_2 c_2 = (1+r) m_1 + m_2. $
 
 #figure(
-  align(center, image("../figures/en-18.png", width: 60%)),
+  align(center, image("../figures/en-18.png", width: 42%)),
   caption: [The Intertemporal Budget Constraint]
 )
 

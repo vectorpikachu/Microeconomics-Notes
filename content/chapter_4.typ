@@ -55,7 +55,7 @@ So the MRS is $ "MRS" = -(partial U "/" partial x_1) / (partial U "/" partial x_
 
 If either $x_1^*=0$ or $x_2^*=0$, then the ordinary demand $(x_1^*, x_2^*)$ is at a #r[corner solution] to the problem.
 
-=== the Perfect Substitutes Case
+=== Perfect Substitutes Case
 
 Examples of Corner Solutions -- the Perfect Substitutes Case
 
@@ -278,4 +278,39 @@ $p_2 arrow.t$
 - demand for commodity 1 $arrow.t$, then commodity 1 is a #r[substitute] for commodity 2.
 - demand for commodity 1 $arrow.b$, then commodity 1 is a #r[complement] for commodity 2.
 
-// TODO
+*Perfect-complements* example:
+$ x_1^* = y/(p_1+p_2), $
+so,
+$ pdv(x_1^*, p_2) = -y/(p_1+p_2)^2 <0. $
+Therefore commodity 2 is a complement for commodity 1.
+
+A *Cobb-Douglas* example:
+$ x_2^* = (b y)/((a+b)p_2), $
+so,
+$ pdv(x_2^*, p_1) = 0. $
+Therefore commodity 1 is neither a complement nor a substitute for commodity 2.
+
+== Effects of a Price Change
+
+1. *Substitution effect*: the commodity is relatively cheaper, so consumers substitute it for now relatively more expensive other commodities.
+2. *Income effect*: the consumer's budget of \$$y$ can purchase more than before, as if the consumer's income rose, with consequent income effects on quantities demanded.
+
+#figure(
+  muchpdf(
+    read("../figures/en-32.pdf", encoding: none),
+    width: 55%,
+  ),
+  caption: [Income effect]
+)
+
+Changes to quantities demanded due to this 'extra' income are the income effect of the price change.
+
+Slutsky discovered that changes to demand from a price change are always the sum of a pure substitution effect and an income effect.
+
+#figure(
+  muchpdf(
+    read("../figures/en-33.pdf", encoding: none),
+    width: 45%,
+  ),
+  caption: [Pure Substitution Effect & Income Effect]
+)

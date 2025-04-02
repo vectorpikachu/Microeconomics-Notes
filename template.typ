@@ -131,11 +131,13 @@ header: context {
       }
     ]
 
+    show emph: set text(font: ("Libertinus Serif", "KaiTi"))
     if calc.even(here().page()) == true {
       emph(chapter-title) + h(1fr) + emph(head-title)
     } else {
       emph(head-title) + h(1fr) + emph(chapter-title)
     }
+    show emph: set text(font: (fonts.en-font, "KaiTi"))
 
     v(-8pt)
     align(center)[#line(length: 105%, stroke: (thickness: 1pt, dash: "solid"))]

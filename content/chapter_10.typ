@@ -80,4 +80,52 @@ So a profit-max supply level can lie only on the upwards sloping part of the fir
 
 But *not* every point on the upward-sloping part of the firm's MC curve represents a profit-maximum.
 
-E.g., $Pi(y) = p y - c(y) = p y - F - c_v (y)$, 那么选择一个大于0的产量只有当$p y -c_v (y) >=0$, 也就是$p >= (c_v (y))/(y) = "AVC"_s (y)$.
+E.g., $Pi(y) = p y - c(y) = p y - F - c_v (y)$, 那么选择一个大于0的产量只有当$p y -c_v (y) >=0$, 也就是$p >= (c_v (y))/(y) = "AVC"_s (y)$. 这个点$y_s^*$也被称为Shutdown point.
+
+- 短期内只能是shut-down, means producing no output (but the firm is still in the industry and suffers its fixed cost)
+- 只有长期才能exit this industry.
+
+
+== The Firm's Long-Run Supply Decision
+
+长期的profit function只有可变成本:
+$ Pi(y) = p y - c(y). $
+
+所有的inputs在长期都是variable的.
+
+取得最大利润的条件: $ p = "MC"(y) "and" (dd("MC"(y)))/(dd(y))>0. $
+
+== Producer's Surplus Revisited
+
+$ "Producer Surplus (PS)" = "Revenue" - "Variable Cost". $
+
+$ "Profit" = "Revenue" - "Total Cost". $
+
+所以, 我们有,
+$ "PS" = "Profit" + "Fixed Cost". $
+
+Variable Cost: $ c_v (y^* (p)) = integral_0^(y^* (p)) "MC"_s (z) dd(z). $
+
+== Supply Aggregation
+
+Market demand = 所有需求加起来.
+
+Market Supply = 所有Supply加起来.
+
+=== Supply from a Competitive Industry
+
+price-taker: 那么就是这个价格下单个公司产量的加总.
+
+$ S(p) = sum_(i=1)^n S_i (p). $
+
+#figure(
+  muchpdf(
+    read("../figures/agg_supply1.pdf", encoding: none),
+    width: 50%,
+  ),
+  caption: [Supply Aggregation]
+)
+
+有的公司赚钱, 有的公司亏钱, 还有的公司不赚也不亏.
+
+// TODO: 五一放假，懒得写了.

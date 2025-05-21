@@ -215,10 +215,10 @@ header: context {
     })
 
   // 配置表格
-  set table(
-    fill: (_, row) => if row == 0 {accent-color.lighten(80%)} else {accent-color.lighten(90%)},
-    stroke: 1pt + white,
-  )
+  //set table(
+  //  fill: (_, row) => if row == 0 {accent-color.lighten(80%)} else {accent-color.lighten(90%)},
+  //  stroke: 1pt + white,
+  //)
 
   // set figure(placement: auto)
   show figure.where(
